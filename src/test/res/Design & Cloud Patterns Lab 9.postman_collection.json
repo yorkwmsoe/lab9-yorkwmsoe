@@ -1,0 +1,280 @@
+{
+	"info": {
+		"_postman_id": "a20403c2-daa2-440e-b784-cb126c4a117b",
+		"name": "Design & Cloud Patterns Lab 9",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34377469"
+	},
+	"item": [
+		{
+			"name": "GetPrimes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://qnnmf7hxq6.execute-api.us-east-1.amazonaws.com/primes",
+					"protocol": "https",
+					"host": [
+						"qnnmf7hxq6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"primes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestPrime1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"integer\":1000000000000037}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qnnmf7hxq6.execute-api.us-east-1.amazonaws.com/add_prime",
+					"protocol": "https",
+					"host": [
+						"qnnmf7hxq6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"add_prime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestPrime2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"integer\":1000000000000038}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qnnmf7hxq6.execute-api.us-east-1.amazonaws.com/add_prime",
+					"protocol": "https",
+					"host": [
+						"qnnmf7hxq6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"add_prime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestPrime3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"integer\":1000000000000091}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qnnmf7hxq6.execute-api.us-east-1.amazonaws.com/add_prime",
+					"protocol": "https",
+					"host": [
+						"qnnmf7hxq6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"add_prime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestPrime4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"integer\":1000000000000092}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qnnmf7hxq6.execute-api.us-east-1.amazonaws.com/add_prime",
+					"protocol": "https",
+					"host": [
+						"qnnmf7hxq6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"add_prime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestPrime5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"integer\":1000000000000159}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qnnmf7hxq6.execute-api.us-east-1.amazonaws.com/add_prime",
+					"protocol": "https",
+					"host": [
+						"qnnmf7hxq6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"add_prime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestPrime6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"integer\":1000000000000160}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qnnmf7hxq6.execute-api.us-east-1.amazonaws.com/add_prime",
+					"protocol": "https",
+					"host": [
+						"qnnmf7hxq6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"add_prime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestPrime7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"integer\":1000000000000187}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qnnmf7hxq6.execute-api.us-east-1.amazonaws.com/add_prime",
+					"protocol": "https",
+					"host": [
+						"qnnmf7hxq6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"add_prime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestPrime8",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"integer\":1000000000000188}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qnnmf7hxq6.execute-api.us-east-1.amazonaws.com/add_prime",
+					"protocol": "https",
+					"host": [
+						"qnnmf7hxq6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"add_prime"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
